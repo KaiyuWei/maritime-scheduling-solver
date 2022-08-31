@@ -1,0 +1,10 @@
+N //vessels
+M //berths
+ta_1 ... ta_|N| (expected arrival of the vessels)
+s_1 ... s_[M] (expected opening time of berths)
+h_1_1 ... h_1_|M| (handling time of p_vessel_1_berth_1, p_vessel_1_berth_2, ...)
+...
+h_|N|_1 ... h_|N|_|M| (processing time of p_vessel_|N|_berth_1, p_vessel_|N|_berth_2, ...)
+e_1 ... e_|M| (expected ending time of berths)
+t'_1 ... t'_|N| (maximum departure time of vessels)
+cost_1 ... cost_|N| (cost per unit of time per vessel)
